@@ -45,58 +45,6 @@
 - **Authentication:**
   - JWT (JSON Web Tokens): Used for secure user authentication and session management.
 
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/saralnotes.git
-   ```
-
-2. **Backend Setup:**
-   - Navigate to the backend folder:
-     ```bash
-     cd backend
-     ```
-   - Install the required packages:
-     ```bash
-     composer install
-     ```
-   - Configure the environment variables:
-     - Create a `.env` file by copying `.env.example` and updating it with your database credentials.
-     ```bash
-     cp .env.example .env
-     ```
-   - Generate the application key:
-     ```bash
-     php artisan key:generate
-     ```
-   - Run the migrations:
-     ```bash
-     php artisan migrate
-     ```
-
-3. **Frontend Setup:**
-   - Navigate to the frontend folder:
-     ```bash
-     cd frontend
-     ```
-   - Install the required packages:
-     ```bash
-     npm install
-     ```
-
-4. **Running the Application:**
-   - Start the backend server:
-     ```bash
-     php artisan serve
-     ```
-   - Start the frontend development server:
-     ```bash
-     npm start
-     ```
-
-5. **Access the Application:**
-   - Open your browser and navigate to `http://localhost:3000` for the frontend and `http://localhost:8000` for the backend API.
 
 ## Usage
 
@@ -111,9 +59,6 @@
 
 Feel free to contribute to the project by submitting issues or pull requests. Please follow the code of conduct and make sure your contributions align with the project’s goals.
 
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
